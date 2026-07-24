@@ -23,7 +23,11 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: training
+    org_name: SillyGuyIndustries
+  webhook_settings:
+    activites_webhook:
+      enable_activites_webhook: true
+      destination_url: https://webhook.site/68f9f116-9fa4-4b01-a343-3fe1a7743283
 
   server_settings:
     ###########################################################
