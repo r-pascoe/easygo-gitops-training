@@ -12,8 +12,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+
   fleet_desktop:
     transparency_url: https://sillyguy.com
+
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -24,9 +26,10 @@ org_settings:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
     org_name: SillyGuyIndustries
+
   webhook_settings:
-    activites_webhook:
-      enable_activites_webhook: true
+    activities_webhook:
+      enable_activities_webhook: true
       destination_url: https://webhook.site/68f9f116-9fa4-4b01-a343-3fe1a7743283
 
   server_settings:
